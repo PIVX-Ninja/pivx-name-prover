@@ -38,7 +38,7 @@ For each transaction in a batch, the guest program running inside the zkVM stric
 ## 🔗 Smart Contract Integration & Trustless State
 
 The PiNS Prover operates in tandem with the **Arbitrum Smart Contract**:  
-👉 **[PIVX_Ninja/pivx-name-evm-contract](https://github.com/PIVX_Ninja/pivx-name-evm-contract)**
+👉 **[PIVX_Ninja/pivx-name-evm-anchor](https://github.com/PIVX_Ninja/pivx-name-evm-anchor)**
 
 ### How Trustlessness is Achieved
 1. **Off-Chain Execution, On-Chain Verification**: Sequencers bundle domain transactions off-chain and run the PiNS Prover script to generate a Groth16 SNARK proof along with public outputs (`old_root`, `new_root`).
