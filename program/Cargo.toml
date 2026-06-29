@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 # --- Core SP1 SDK ---
-sp1-zkvm = "6.2.2"
+sp1-zkvm = "6.3.1"
 
 # --- Data Serialization (Pinned bincode per SP1 standards) ---
 serde = { version = "1.0", features = ["derive"] }

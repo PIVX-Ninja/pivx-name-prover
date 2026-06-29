@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 # --- Core SP1 SDK ---
-sp1-sdk = { version = "6.2.2", features = ["network"] }
+sp1-sdk = { version = "6.3.1", features = ["network"] }
 
 # --- Data Serialization (Optimized for standard OS) ---
 serde = { version = "1.0", features = ["derive"] }
@@ -27,4 +27,4 @@ tracing-subscriber = "0.3"
 tracing-appender = "0.2"
 
 [build-dependencies]
-sp1-build = { version = "6.2.2" }
+sp1-build = { version = "6.3.1" }
