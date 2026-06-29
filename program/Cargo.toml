@@ -1,0 +1,24 @@
+[package]
+version = "0.1.0"
+name = "pins-program"
+edition = "2021"
+
+[dependencies]
+# --- Core SP1 SDK ---
+sp1-zkvm = "6.2.2"
+
+# --- Data Serialization (Pinned bincode per SP1 standards) ---
+serde = { version = "1.0", features = ["derive"] }
+bincode = "1.3.3"
+
+# --- Smart Contract ABI ---
+alloy-sol-types = { version = "1.6", default-features = false }
+
+# --- Cryptography (Optimized for ZKVM) ---
+sha2 = { version = "0.10.9", default-features = false }
+ed25519-dalek = { version = "2", default-features = false }
+
+# --- Utilities ---
+hex = { version = "0.4", default-features = false, features = ["alloc"] }
+
+bech32 = { version = "0.9", default-features = false }
